@@ -1,0 +1,52 @@
+As premissas utilizadas para testar o programa encontram-se na classe Teste.java, no entanto, irei listá-las a seguir. A escolha das premissas foi pensada para que seja já inicializado um sitema com três pacientes que já possuem seus respectivos dados e consultas cadastradas. 
+
+1º Paciente
+	Nome: Bruna Gomes Camilo
+	Endereço: Rua Vereador Orlando Pacheco
+	Telefone Fixo: 33335984
+	Telefone Celular: 995489890
+	Email: brunagomescamilo@gmail.com
+	Data de nascimento: 01/09/2000
+	
+2º Paciente
+	Nome: Carlos Moreira Nunes
+	Endereço: Rua Erechim
+	Telefone Fixo: 32669044
+	Telefone Celular: 895422317
+	Email: carlosmoreira@gmail.com
+	Data de nascimento: 26/03/1958
+
+3º Paciente
+	Nome: Gleice Antunes Faria
+	Endereço: Rua Holanda
+	Telefone Fixo: 31915322
+	Telefone Celular: 994237759
+	Email: gleiceafarias@gmail.com
+	Data de nascimento: 07/06/1981
+
+Cada um desses pacientes possuem três consultas cadastradas.
+
+Somado a isso, foi construído, também no arquivo Teste.java, um catálogo com 5 alimentos de cada um dos três grupos a saber, caroidratos,
+proteinas e frutas e Verduras. Os alimentos contidos em cada um dos grupo e seus respectivos valores calóricos são listados a seguir
+
+Carboidratos
+	Arroz - 160.0
+	Batata - 100.0
+	Cereal - 30.0
+	Biscoito - 80.0
+	Macarrão - 230.0
+
+Proteinas
+	Queijo - 50.0
+	Carne - 300.0
+	Ovo - 40.0
+	Iorgute - 130.0
+	Leite - 150.0
+
+Frutas e Verduras
+	Pera - 140.0
+	Maça - 70.0
+	Mamão - 50.0
+	Melancia - 380.0
+	Banana - 10.0
+

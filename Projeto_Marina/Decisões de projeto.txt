@@ -1,0 +1,49 @@
+	O projeto Nutricionista Marina foi realizado em linguegem Java como solicitado pelo comando da prova. Dessa forma, construi o projeto orientado a objetos. A seguir descreverei como foi estruturado o projeto. 
+	Primeiramente, fiz em um papel o diagrama de classes do projeto esse serviu para me orinetar quais classes deveram ser criadas seus atributos e métodos. 
+	Após desenvolver esse escopo, eu iniciei o projeto utilizando o Java Development Kit e o ambiente de desenvolvimento NetBeans.
+	Ao todo foram utilizadas quatro classes a saber Teste, Paciente, Alimento, Consulta, além dessas foi criada a classe main chamada Clinica Marina. A seguir irei detalhar mais cada classe.
+	
+Classe Teste 
+	Seu objetivo é inicializar o projeto já com alguns objetos de Paciente, Alimento e Consulta criados. Dessa forma, ao executar o programa já é possível verificar nas opções Listar Pacientes, Listar Consultas e LIstar Alimentos os respectivos atributos dos objetos instanciados.
+	Nessa classe se observa três métodos sendo eles:
+	 - o método Grupos no qual se adiciona aos três grupos de alimentos alguns elementos;
+	 - o método Pacientes no qual se instancia três pacientes e repassa seus respectivos valores de aributos;
+	 - o método Consultas no qual se insere três consultas a cada paciente anteriormente criado;
+	
+Classe Paciente
+	Seu objetivo é incluir os respectivos atributos que deve ser obtidos para a criação de um objeto Paciente, bem como os métodos para a execução da adição de uma nova consulta a esse objeto Paciente e para a listagem das informações de cada consulta realizada pelo Paciente. 
+	Nessa classe temos os seguintes atributos:
+	    String nome;
+	    String endereco;
+	    String telefoneFixo;
+	    String telefoneCelular;
+	    String email;
+	    String dataNascimento;
+	    ArrayList <Consulta> consulta; //para armazenar as n consultas realizadas pelo paciente com a doutora Marina
+	Além  dos seguintes métodos (não abordarei os métodos get e set para cada atributo da classe, porém eles foram construídos):
+		adicionarConsuta -  que recebe como parâmetro a data, hora, peso, gosdura corporea, sencações físicas e restrições e retorna um objeto do tipo Consulta
+		listarConsultas - que não recebe e nem retorna nenhum dado, apenas exibios ao usuário
+		
+Classe Alimento
+	Seu objetivo é armazenar os respectivos nomes e quantidade calórica dos alimentos disponíveis para a construção das dietas. Foi instanciado três objetos principais do tipo Alimento o Carboidratos, Proteinas e FrutaseVerduras. 
+	Nessa classe temos o seguinte atributo:
+		HashMap<String, Double> comidas
+	Além dos seguintes métodos (não abordarei os métodos get e set para cada atributo da classe, porém eles foram construídos):
+		adicionarComida que recebe o nome e a quantidade calórica do alimento e os insere, no formato key-value, no HashMap
+	
+Classe Consulta
+	Seu objetivo é conter os atributos necessários para se instanciar um objeto Consulta, como também o método a ser executado com o intuito de construir uma dieta respeitando a quantidade máxima de calorias passada. 
+	Nessa classe temos os seguintes atributos:
+  	    String data;
+	    String horario;
+	    double peso;
+	    double gordura;
+	    String sensacao;
+	    String restricoes;
+	    HashMap<String, Double> dieta; //para armazenar um alimento de cada grupo (Carboidrato, Proteina e Fruta e Verdura)
+	A classe Consulta possui dois métodos que realizam a função de criarDieta tanto para os que são adcionados de forma organica quanto aos que foram adcionados pelo arquivo teste.
+	    Ambos recebem os mesmos parâmetros sendo eles o carboidrato, proteina e fruta do tipo Alimento e a quantidade calorica do tipo double
+
+Classe Main
+	Seu objetivo é gerir todo o projeto solicitando e recebendo as informações do usuário e as repassando para as respectivas classes que iram trabalhar com elas e retornar as requisições pedidas.
+	Nela eu trabalhei com um loop do menu que se finaliza com a chamada da opção Sair. Para a identificação e construção da solução de cada requisiçã pedida pelo usuário criei um switch que de acordo com a opção recebida executa um determinado conjunto de código. 

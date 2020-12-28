@@ -1,0 +1,9 @@
+Para executar o projeto Nutricionista Marina siga os seguintes passos:
+
+	1° Instale o Java Deelopment Kit (jdk)
+	2º Instale um editor de texto de sua preferência - sugiro o NetBeans, mas isso não faz diferença no resultado final
+	3º Faça download do zip envidado com o arquivo do projeto ou clone o seguinte repositório no seu computador
+	4º Abra o projeto em seu editor de texto 
+	5º Clique em executar projeto
+	6º Pelo terminal do editor ou do próprio sistema operacional do seu computador. Nesse último caso se direcione até a pasta onde encontra-se o projeto, compile-o e execute-o.
+	

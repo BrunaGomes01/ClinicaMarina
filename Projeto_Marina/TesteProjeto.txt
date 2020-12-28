@@ -1,0 +1,1 @@
+Foi criado uma classe Teste.java dentro do projeto que inicializa algumas variáveis que tornam possível a execução de deste no programa. Basta execuar o projeto e esse arquivo será inicializado e executado.  
